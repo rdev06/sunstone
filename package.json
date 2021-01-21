@@ -1,0 +1,28 @@
+{
+	"name": "sunstone",
+	"version": "1.0.0",
+	"description": "This project is assigned to me by sunstone in which we have student and faculty were some sample image and faculty can deliver some subject and for the same students can subscribe the deliverables of the faculty.",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index",
+		"dev": "nodemon index"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rdev06/sunstone.git"
+	},
+	"keywords": ["sunstone","student","faculty","deliverable","subscription"],
+	"author": "Roshan Dev",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rdev06/sunstone/issues"
+	},
+	"homepage": "https://github.com/rdev06/sunstone#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"express-fileupload": "^1.2.1",
+		"mongoose": "^5.11.12",
+		"morgan": "^1.10.0"
+	}
+}
